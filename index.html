@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hello world</title>
+    <style>
+      *, *::before, *::after { box-sizing: border-box; }
+
+      :root {
+        font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Inter', system-ui, sans-serif;
+        -webkit-font-smoothing: antialiased;
+        text-rendering: optimizeLegibility;
+        color-scheme: dark;
+        background: #000;
+        color: #fff;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+      }
+
+      h1 {
+        margin: 0;
+        font-size: 48px;
+        font-weight: 500;
+        letter-spacing: -0.02em;
+      }
+
+      footer {
+        position: fixed;
+        bottom: 16px;
+        left: 0;
+        right: 0;
+        text-align: center;
+        font-size: 13px;
+        color: rgba(255, 255, 255, 0.45);
+      }
+
+      footer a {
+        color: inherit;
+        text-underline-offset: 2px;
+        transition: color 200ms ease;
+      }
+
+      footer a:hover { color: rgba(255, 255, 255, 0.8); }
+    </style>
+  </head>
+  <body>
+    <h1>Hello world</h1>
+    <footer>
+      AI prototyping for Designers by
+      <a href="https://github.com/ana-rodrigues" target="_blank" rel="noopener noreferrer">Ana Rodrigues</a>
+    </footer>
+  </body>
+</html>
